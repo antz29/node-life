@@ -26,6 +26,10 @@
 	"main" : "./src/lib/life.js",
 
 	"dependencies": {
+		"optimist" : ">=0.1.0",
+		"socket.io" : ">=0.8.7",
+		"underscore" : ">=1.2.2",
+		"mongodb" : ">=0.9.7"	
 	},
 	"devDependencies": {
 		"expresso" : ">=0.9.0"
