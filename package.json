@@ -1,0 +1,36 @@
+{
+	"author": "John Le Drew <jp@antz29.com> (http://antz29.com)",
+	"name": "life",
+	"description": "An artificial life simulation in node.",
+	"keywords": ["artificial", "life", "simulation"],
+	"version": "0.0.1",
+	"homepage": "http://github.com/antz29/node-life",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/antz29/node-life.git"
+	},
+
+   	"bugs": {
+        	"email": "life-bugs@antz29.com",
+	        "url": "http://github.com/antz29/node-life/issues"
+    	},
+
+	"engines": {
+		"node": ">=0.6.0"
+	},
+
+	"directories": {
+        	"lib": "./src/lib"
+	},
+
+	"main" : "./src/lib/life.js",
+
+	"dependencies": {
+	},
+	"devDependencies": {
+		"expresso" : ">=0.9.0"
+	},
+	"scripts" : {
+		"test" : "./node_modules/expresso/bin/expresso"
+	}
+}
